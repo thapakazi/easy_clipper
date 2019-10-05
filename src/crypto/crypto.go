@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Luzifer/go-openssl"
+	"github.com/Luzifer/go-openssl/v3"
 )
 
 func decrypt(encryptedblob []byte, key, siteurl string) ([]byte, error) {
